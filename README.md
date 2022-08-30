@@ -3,11 +3,8 @@
 </center>
 
 <br />
-<center>
 
 # Projetos React para trabalho em sala de aula
-
-</center>
 
 <br />
 
