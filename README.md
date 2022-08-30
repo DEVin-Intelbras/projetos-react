@@ -18,6 +18,6 @@
 
 Durante a semana 10, os assuntos abordados são composition, forms (react hook form) e organização de projetos.
 
-Acesse a documentação do [projeto da semana 10](./m01s10/README.md)
+Acesse a documentação do [projeto da semana 10](./m01s10)
 
 ---
