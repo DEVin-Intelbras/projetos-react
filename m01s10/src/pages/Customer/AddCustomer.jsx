@@ -11,23 +11,23 @@ export const AddCustomer = () => {
       <Paper>
         <form onSubmit={(e) => e.preventDefault()}>
           <div className={styles.fieldGroup}>
-            <label htmlFor="">Name</label>
+            <label htmlFor="name">Name</label>
             <input type="text" id="name" name="name" />
           </div>
           <div className={styles.fieldGroup}>
-            <label htmlFor="">E-mail</label>
-            <input type="text" id="name" name="email" />
+            <label htmlFor="email">E-mail</label>
+            <input type="text" id="email" name="email" />
           </div>
           <div className={styles.fieldGroup}>
-            <label htmlFor="">Age</label>
-            <input type="age" min="0" step="1" id="name" name="age" />
+            <label htmlFor="age">Age</label>
+            <input type="age" min="0" step="1" id="age" name="age" />
           </div>
           <div className={styles.fieldGroup}>
-            <label htmlFor="">Password</label>
+            <label htmlFor="password">Password</label>
             <input type="password" id="password" name="password" />
           </div>
           <div className={styles.fieldGroup}>
-            <label htmlFor="">Password</label>
+            <label htmlFor="passwordConfirm">Confirm Password</label>
             <input type="password" id="passwordConfirm" name="passwordConfirm" />
           </div>
           <ButtonGroup>
