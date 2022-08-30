@@ -1,4 +1,8 @@
 
+<center>
+    <img alt="Logo DEVinHouse" title="DEVinHouse" src="../.github/images/devinhouse-banner.png"/>
+</center>
+
 # Módulo 01 - Semana 10
 
 ## Índice
