@@ -1,13 +1,5 @@
 
-
-<br />
-<center>
-
 # Módulo 01 - Semana 10
-
-</center>
-
-<br />
 
 ## Índice
 
