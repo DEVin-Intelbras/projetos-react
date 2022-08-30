@@ -13,7 +13,7 @@
 
 ## Índice
 
-- <a href="#page_facing_up-aula-01-composicao">Aula 01 - Composição</a>
+- <a href="page_facing_up-aula-01---composição">Aula 01 - Composição</a>
 
 ---
 
