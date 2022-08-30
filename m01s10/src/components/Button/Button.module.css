@@ -1,0 +1,7 @@
+.container {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  padding: 1em 2em;
+  cursor: pointer;
+  opacity: 1;
+}
