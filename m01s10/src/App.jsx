@@ -1,6 +1,6 @@
 import React from "react";
-import { Home } from "./pages";
+import { AddCustomer } from "./pages";
 
 export const App = () => {
-  return <Home />;
+  return <AddCustomer />;
 };

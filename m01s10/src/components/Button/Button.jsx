@@ -1,11 +1,16 @@
 import styles from "./Button.module.css";
 
-export const Button = ({ children, color, onSelect }) => {
+const variantMap = {
+  primary: "var(--color-main)",
+  secondary: "var(--color-secondary)",
+};
+
+export const Button = ({ children, color: variant, onClick }) => {
   return (
     <button
-      onClick={onSelect}
-      style={{ backgroundColor: color }}
-      className={styles.container}
+      onClick={onClick}
+      style={{ backgroundColor: variantMap[variant] }}
+      className={styles.btn}
     >
       {children}
     </button>

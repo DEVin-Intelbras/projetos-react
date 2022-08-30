@@ -8,9 +8,10 @@
   --color-error: #d61b25;
   --color-into: #00ade2;
   --color-warning: #e79a3b;
-  --color-text: #111;
+  --color-text: #333;
   --color-black: #111;
   --color-white: #eee;
+  --color-border: rgba(0, 0, 0, 0.1);
 }
 
 html {
