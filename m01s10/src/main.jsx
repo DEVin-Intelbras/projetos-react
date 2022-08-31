@@ -8,7 +8,7 @@ import "./assets/css/global.css";
 const app = ReactDOM.createRoot(document.getElementById("root"));
 
 app.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  // <React.StrictMode>
+  <App />
+  // </React.StrictMode>
 );
