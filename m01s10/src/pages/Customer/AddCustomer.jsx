@@ -1,24 +1,32 @@
+import { useEffect } from "react";
 import { useRef } from "react";
+import { useState } from "react";
 import { Paper, ButtonGroup, Button, Form } from "../../components";
 import styles from "./AddCustomer.module.css";
 
-const formulario = {};
-
 export const AddCustomer = () => {
-  const nameRef = useRef();
+  const intervalId = useRef();
+  const [form, setForm] = useState({});
+  const error = {};
 
-  const handleSubmit = () => {
-    nameRef.current.focus();
-    console.log(nameRef.current);
-    // console.log(formulario);
-  };
+  const handleSubmit = () => {};
   const handleReset = () => {};
-
   const handleChange = (event) => {
-    console.log(event.target.name);
-    console.log(event.target.value);
-    formulario[event.target.name] = event.target.value;
+    setForm((f) => {
+      return { ...f, [event.target.name]: event.target.value };
+    });
   };
+
+  const funSalvarForm = () => {
+    localStorage.setItem("mikaform", JSON.stringify(form));
+  };
+
+  useEffect(() => {
+    intervalId.current = setInterval(funSalvarForm, 1000);
+    return () => {
+      clearInterval();
+    };
+  });
 
   return (
     <div className={styles.container}>
@@ -27,7 +35,8 @@ export const AddCustomer = () => {
         <Form>
           <div className={styles.fieldGroup}>
             <label htmlFor="name">Name</label>
-            <input ref={nameRef} type="text" id="name" name="name" />
+            <input onChange={handleChange} type="text" id="name" name="name" />
+            {!!error.name && <span>{error.name}</span>}
           </div>
           <div className={styles.fieldGroup}>
             <label htmlFor="email">E-mail</label>
@@ -39,7 +48,7 @@ export const AddCustomer = () => {
           </div>
           <div className={styles.fieldGroup}>
             <label htmlFor="password">Password</label>
-            <input type="password" id="password" name="password" />
+            <input onChange={handleChange} type="password" id="password" name="password" />
           </div>
           <div className={styles.fieldGroup}>
             <label htmlFor="passwordConfirm">Confirm Password</label>
