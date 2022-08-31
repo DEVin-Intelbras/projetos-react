@@ -8,7 +8,7 @@ const validationObject = {
 };
 
 export const AddCustomer = () => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
   const handleConfirmarForm = (valores) => {};
 
   return (
@@ -42,7 +42,7 @@ export const AddCustomer = () => {
           </div>
           <ButtonGroup>
             <Button onClick={handleSubmit}>Submit</Button>
-            <Button onClick={() => {}} color="secondary">
+            <Button onClick={() => reset()} color="secondary">
               Clear
             </Button>
           </ButtonGroup>
