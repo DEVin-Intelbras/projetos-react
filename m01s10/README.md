@@ -1,23 +1,21 @@
-<center style="width: 420px; margin:0 auto;">
-    <img alt="Projeto m01s10" title="m01s10" src=".github/images/projeto-m01s10.png"/>
-</center>
 
-<br />
 <center>
+    <img alt="Logo DEVinHouse" title="DEVinHouse" src="../.github/images/devinhouse-banner.png"/>
+</center>
 
 # Módulo 01 - Semana 10
 
-</center>
-
-<br />
-
 ## Índice
 
-- <a href="#page_facing_up-aula-01-composicao">Aula 01 - Composição</a>
+- <a href="#page_facing_up-aula-01---composição">Aula 01 - Composição</a>
 
 ---
 
 ## :page_facing_up: Aula 01 - Composição
+
+<center>
+    <img width="420" alt="Projeto m01s10" title="m01s10" src=".github/images/projeto-m01s10.png"/>
+</center>
 
 **Slides**: [Módulo 1 - Semana 10 - Aula 1](https://docs.google.com/presentation/d/1PiiECMgt8m5T5hspSYb_6IBvqKmgd4oOqSNNL3_88WY/edit#slide=id.g10d952ca74f_0_79)
 
